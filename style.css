@@ -1,0 +1,368 @@
+
+.vfrc-launcher {
+    /* Initial size and transition for smooth animation */
+    transition: transform 0.9s ease;
+    /* transform-style: preserve-3d; */
+}
+
+.vfrc-launcher:hover {
+    /* Scale the element up by 10% (1.1 is 110%) */
+    transform: scale(1.2);
+}
+
+/* **Chatbot Bubble Launcher When Cursor Is Not Hovering On Top Of It** */
+.vfrc-launcher {
+    background-color: #F8352B;
+}
+
+/* ** Chatbot Bubble Launcher When Cursor Is Hovering On Top Of It - darkPrimary Is The Color To Change ** */
+.t-bqWueX {
+    --colors-primary: #F8352B;
+    --colors-darkPrimary: #648F23;
+    --colors-fadedPrimary: #f8352b73;
+}
+
+.c-iSWgdS .c-tbgzS:Hover {
+    background-color: #648F23;
+}
+/* ** Color Of Box At Bottom Of Chat That Encloses The "Start New Chat" Button ** */
+.vfrc-chat {
+    background-color: #F8352B;
+}
+
+/* ** Color Of Box At The Very Top Of The Chat ** */
+.vfrc-header {
+    background-color: #F8352B;
+}
+
+/* ** The Color Behind All Of The Circular Icons In The Chat ** */
+.vfrc-avatar {
+    background-color: #ffffff;
+}
+
+/* ** Dimensions Of The Icon In The Top Left Of The Chat Header ** */
+.c-iCDrnV .c-kIbiaN {
+    height: 40px;
+    width: 40px;
+}
+
+/* ** Color Of Text Title In Chat Header ** */
+.vfrc-header--title {
+    color: #ffffff;
+}
+
+/* ** Background Color Of Main Chat Area ** */
+.vfrc-chat--dialog {
+    background-color: #F2F2F2;
+}
+
+/* ** Background Color Of Box Where The Large Brand Icon And Assistant Main Titles Are Located ** */
+.vfrc-assistant-info {
+    /* background-color: #648F23; */
+    background: linear-gradient(to bottom, #648F23, #9fcd4e);
+}
+
+.c-dzcdPv:Hover {
+    border: 0px;
+    padding: 0px;
+    background-color: #F8352B;
+}
+
+.c-dxAZjf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    margin-left: 8px;
+    border-radius: 6px;
+    background-color: #F8352B;
+    transition: background-color 150ms;
+}
+
+.vfrc-header--button {
+background-color: #F8352B;
+}
+
+.c-dxAZjf .c-dhzjXW:Hover {
+    background-color: #F8352B;
+}
+
+/* ** Color Of The Text Title Of The Assistant Below The Header Of The Chat ** */
+.vfrc-assistant-info--title {
+    color: #000000;
+}
+
+/* ** Color Of The Assistant Description Text ** */
+.vfrc-assistant-info--description {
+    color: #000000d1;
+}
+
+/* ** Text Color Of Chat Time ** */
+.vfrc-chat--session-time {
+    color: #000000ba;
+}
+
+/* ** Unknown ** */
+.vfrc-system-response--controls {
+    background-color: #33D1FF;
+}
+
+/* ** Background Color Of The Margins On Both Sides Of All Assistant Messages ** */
+.vfrc-system-response {
+    background-color: #F2F2F2;
+}
+
+/* ** The Color Of The Assistant Message Text Box Portion That Falls Just Outside Of The Rounded Corners But Doesn't Exceed The Text Box Width Or Height ** */
+.vfrc-system-response--list {
+    background-color: #F2F2F2;
+}
+
+/* ** Color Of Assistant Message Text ** */
+.vfrc-system-response .vfrc-message {
+    color: #000000;
+}
+
+/* ** Color Of Assistant Message Text Boxes ** */
+.c-PJLV-jueArD-from-system {
+    background-color: #F9560B;
+    text-align: left;
+}
+
+/* ** Size Of Assistant Message Icons ** */
+.c-kIbiaN-iiTsXc-size-small {
+    height: 32px;
+    width: 32px;
+}
+
+/* ** Unknown ** */
+.vfrc-timestamp {
+    color: #000000ba;
+}
+
+/* ** Background Color Of The Margins On Both Sides Of All User Messages ** */
+.vfrc-user-response {
+    background-color: #F2F2F2;
+}
+
+/* ** Color Of User Message Text ** */
+.vfrc-user-response .vfrc-message {
+    color: #ffffff;
+    text-align: left;
+}
+
+/* ** Background Color Of Left & Right Carousel Scroll Buttons ** */
+.vfrc-carousel--button {
+    background-color: #F8352B;
+}
+
+.vfrc-carousel--button:Hover {
+    background-color: #648F23;
+}
+
+/* ** The Background Color Just Outside The Rounded Corners And In Between The Different Cards Of The Carousel ** */
+.vfrc-carousel {
+    background-color: #F2F2F2;
+}
+
+/* ** Unknown ** */
+.vfrc-image {
+    border-color: #ffffff;
+}
+
+/* ** The Background Color Of The Largest Box Just Below The Product Image Of Each Card In The Carousel ** */
+.vfrc-card--content {
+    /* background-color: #648F23; */
+    background: linear-gradient(to bottom, #648F23, #9fcd4e);
+}
+
+/* ** The Background Color Of The Box Behind Each Card's Header Text In The Carousel ** */
+/* .vfrc-card--header {
+    background-color: #648F23;
+    border: 2px solid rgb(1 1 1 / 40%);
+    border-radius: var(--radii-1);
+}
+*/
+
+/* ** Text Color Of The Description Of Each Card Within The Carousel ** */
+.vfrc-card--description {
+    color: #f2f2f2;
+}
+
+/* ** Border Around Each Carousel Card ** */
+.c-jUajGf {
+    border: 1px solid rgb(1 1 1 / 40%);
+}
+
+/* ** Carousel Left & Right Arrow Configuration ** */
+.c-fHxDoY .c-dhzjXW {
+    height: var(--sizes-xs);
+    width: var(--sizes-xs);
+    color: rgb(255 255 255);
+    transition: color 150ms;
+}
+
+
+/* ** Background Color Of Visit Product Buttons Within Each Card Of Carousel ** */
+.vfrc-system-response .vfrc-button {
+    background-color: #ffffff;
+    border: 1px solid rgb(1 1 1 / 65%);
+}
+
+/* ** Background Color Of Text On Visit Product Buttons Within Each Card Of Carousel ** */
+/*  .c-jUajGf .c-jjMiVY {
+    color: #000000;
+}
+
+*/
+
+/* .c-jUajGf .c-jjMiVY {
+   Initial size and transition for smooth animation 
+    transition: transform 0.3s ease;
+} 
+*/
+
+/* Scale the element up by 10% (1.1 is 110%) */
+.c-jUajGf .c-jjMiVY:hover {
+    transform: scale(1.025);
+}
+
+
+/* ** Properties Of Text Of Header For Each Card Of Carousel ** */
+.c-Chccx {
+    margin: 0 0 var(--space-1) 0;
+    font-family: var(--fonts-default);
+    font-size: 15px;
+    font-weight: var(--fontWeights-2);
+    line-height: 20px;
+    color: rgb(0 0 0 / 90%);
+    word-break: break-word;
+    max-width: 100%;
+    white-space: break-spaces;
+}
+
+/* ** User Realtime Text Entry Box ** */
+.c-cNrVYs .c-fYYkXN {
+    box-sizing: border-box;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-image: initial;
+    background-color: #F2F2F2;
+    box-shadow: none;
+    transition: border-color 150ms;
+    resize: none;
+    min-height: var(--sizes-md);
+    margin: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-right: 7px;
+}
+
+/* ** Background Color Of User Chat Input Send Message Button ** */
+.vfrc-chat-input--button {
+    background-color: #f2f2f2;
+}
+
+/* ** Icon Color (Arrow) Of User Chat Input Send Message Button ** */
+.c-cNrVYs .c-dhzjXW {
+    color: var(--colors-white);
+}
+
+/* ** Background Color Of Majority Of Chat When You Click The X Button To Exit Chat ** */
+.vfrc-chat--overlay {
+    background-color: #00000035;
+}
+
+/* ** Background Color Of Enclosing Box Behind End Chat & Cancel Buttons When User Click X Icon In Chat  ** */
+.vfrc-prompt {
+    background-color: #F8352B;
+}
+
+/* ** Background Color Of End Chat & Cancel Buttons ** */
+.vfrc-button {
+    background-color: #f2f2f2;
+}
+
+.vfrc-button:Hover {
+    background-color: #f2f2f2;
+}
+
+.c-kbCYVp .c-jjMiVY:Hover {
+    background-color: #648F23;
+}
+
+
+
+/* Cancel Button Text Color 
+.c-bXTvXv-igaDqE-type-subtle:Hover{
+    color: #648F23;
+} 
+*/
+
+/*
+.c-bXTvXv-lckiv-type-info:hover {
+    background-color: #648F23;
+}
+*/
+
+.c-koXsWI .c-jjMiVY {
+    background-color: #f2f2f2;
+}
+
+.c-koXsWI:Hover .c-jjMiVY:Hover {
+    background-color: #648F23;
+}
+
+
+
+/* ** End Chat Button Text Options ** */
+.c-bXTvXv {
+    min-height: var(--sizes-md);
+    color: #000000;
+    transition: background-color 150ms;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    white-space: break-spaces;
+}
+
+/* ** Cancel End Chat Button Text Options ** */
+.c-bXTvXv-igaDqE-type-subtle {
+    color: rgb(0, 0, 0);
+    background-color: inherit;
+    transition: color 150ms;
+}
+
+.c-bXTvXv-XJvOL-type-warn {
+    background-color: #f2f2f2;
+}
+
+/* ** Colors Warn Controls The Color Of The End Chat Button When Hovered Over ** */
+:host, .t-iiWAej {
+    --colors-black: rgba(0, 0, 0, 0.9);
+    --colors-white: #fff;
+    --colors-lightGrey: #f4f4f4;
+    --colors-medGrey: #dfdfdf;
+    --colors-darkGrey: #737376;
+    --colors-blue: #3d82e2;
+    --colors-warn: #db1b42;
+    --colors-darkWarn: #648F23;
+}
+
+/* ** Cancel End Chat Button Background Color On Hover ** */
+.c-dzcdPv:hover {
+    cursor: pointer;
+    background-color: #F8352B;
+}
+
+
+/*
+.c-kbCYVp .c-jjMiVY:Hover{
+    width: 100%;
+    background-color: #648F23;
+}
+    */
+
+.c-bXTvXv-lckiv-type-info {
+    color: #000000;
+}
